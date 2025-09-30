@@ -16,3 +16,7 @@ print("Pi:", pi, "| Full:", isFull)
 // TODO: Crea dos variables nombre y edad.
 // Aumenta la edad en uno y muestra: "Next year, NAME will be AGE".
 
+let nombre = "Nora"
+var edad: Int = 10
+edad += 1
+print("Next year, \(nombre) will be \(edad)")
