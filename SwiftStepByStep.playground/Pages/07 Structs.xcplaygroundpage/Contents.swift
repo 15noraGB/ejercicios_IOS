@@ -21,3 +21,10 @@ print("c1:", c1.value, "c2:", c2.value)
 // TODO: Añade un método `reset()` marcado como mutating en Counter
 // que ponga el valor a 0.
 // Llama a este método y comprueba que el valor se reinicia.
+
+struct Counter2 {
+    private(set) var value: Int = 0
+    mutating func increment() { value += 1 }
+    mutating func add(_ n: Int) { value += n }
+    mutating func reset() { value = 0 }
+}
